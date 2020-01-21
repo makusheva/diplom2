@@ -264,7 +264,7 @@ color: #ffffff;
     background-image: url(/diplom2/img/be-active_1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 60%;
     padding-left: 195px;
     background-position: center center;
 }
@@ -272,14 +272,15 @@ color: #ffffff;
     margin-right: 195px;
     margin-left: 130px;
     margin-top: 260px;
+    width: 50%;
 }
 .be-activ-info p{
     font-size: 24px;
 }
 .step{
-    text-align: center;
-    position: relative;
-    top: -432px;
+    position: absolute;
+    top: 40%;
+    right: 46%;
 }
 .step-one{
     width: 168px;
@@ -312,3 +313,81 @@ color: #ffffff;
 .reverce{
     flex-direction: row-reverse;
 }
+.cotact-info{
+    padding-right: 130px;
+    padding-left: 168px;
+    margin-top: 260px;
+    width: 50%;
+}
+.cotact-img{
+    background-image: url(/diplom2/img/find-contact_1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    padding-left: 195px;
+    background-position: center center;
+}
+.work-img{
+    background-image: url(/diplom2/img/work-it_1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    padding-left: 195px;
+    background-position: center center;
+}
+.footer{
+    background-color: #000000;
+    background-image: url("../img/game_1920.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 960px;
+}
+.footer::before {
+    content: "";
+    background-color: #0a0e34;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+.footer-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.img_footer{
+    width: 135px;
+    height: 38px;
+    display: block;
+    margin: auto;
+    padding: 130px 0 30px 0;
+    fill: #ffffff;
+}
+.footer-svg{
+    z-index: 2;
+    width: 108px;
+    height: 93px;
+    fill: #ffffff;
+    background-color: #53399e;
+    padding: 27px 15px;
+    border-radius: 25%;
+    margin-right: 35px;
+}
+.description{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    font-size: 80px;
+    font-weight: 700;
+  }
+.description span:last-child{
+    color: #a496ca;
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+  }
