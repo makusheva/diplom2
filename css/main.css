@@ -22,7 +22,8 @@
 }
 .header{
     position: relative;
-    padding: 0 195px;
+    margin: 0 auto;
+    max-width: 1540px;
 }
 .welcome{
     background-color: #000000;
@@ -46,8 +47,8 @@
     width: 135px;
     height: 38px;
     display: block;
-    margin: auto;
-    padding: 30px 0 130px 0;
+    margin: 0 auto 130px auto;
+    padding-top: 30px;
     fill: #ffffff;
 }
 .h_header{
@@ -57,15 +58,16 @@
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .right{
-    padding-left: 408px;
+    text-align: end;
 }
 .button{
     position: relative;
     display:flex;
     justify-content: center;
-    padding: 0 195px 110px 195px;
 }
 .btn:last-child{
     margin-left: 50px;
@@ -318,13 +320,14 @@ color: #ffffff;
     padding-left: 168px;
     margin-top: 260px;
     width: 50%;
+    font-size: 24px;
 }
 .cotact-img{
     background-image: url(/diplom2/img/find-contact_1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 60%;
-    padding-left: 195px;
+    padding-left: 40px;
     background-position: center center;
 }
 .work-img{
@@ -390,4 +393,10 @@ color: #ffffff;
     display: block;
     font-weight: 400;
     font-size: 30px;
+  }
+  @media (min-width: 961px) and (max-width: 1920px){
+    .h_header{
+        margin-left: 2.16em;
+        margin-right: 2.16em;
+    }
   }
