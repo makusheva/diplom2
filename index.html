@@ -49,19 +49,24 @@
     </header>
     <section class="participants">
       <div class="athlets">
-          <picture>
-              <source media="(max-width: 320px)" srcset="img/footballer_192.png">
-              <source media="(max-width: 640px)" srcset="img/footballer_497.png">
-              <source media="(min-width: 641px)" srcset="img/footballer_566.png">
-              <img class="athlets_img" src="img/footballer_566.png" alt="player">
-            </picture>
+          <div class="absol-image">
+            <picture>
+              <source media="(max-width: 640px)" srcset="img/footballer_192.png">
+              <source media="(min-width: 641px) and (max-width: 960px)" srcset="img/footballer_t.png">
+              <source media="(min-width: 961px)" srcset="img/footballer_566.png">
+              <img class="athlets_img" src="./img/footballer_566.png" alt="player">
+          </picture>
+          </div> 
+          <div class="default">
+              <div class="empty"></div>
+              <div class="info">
+                <h2 class="athlets_title">athlets</h2>
+          </div>
+          </div>
+        </div>
         <div class="athlets_first">
-            <div class="athlets_first_mob">
-                <h2 class="athlets_title_mob">athlets</h2>
-            </div>
             <div class="empty"></div>
             <div class="info info_bcg">
-                <h2 class="athlets_title">athlets</h2>
                 <div class="connection">
                     <p class="number">01</p>
                     <h3 class="title">Connection</h3>
@@ -70,7 +75,7 @@
                     <p>Connect with coaches directly, you can ping coaches to view profile.</p>
                   </div>
             </div>
-        </div>
+            </div>
         <div class="athlets_second">
             <div class="empty"></div>
             <div class="info">
@@ -96,30 +101,32 @@
                   </div>
             </div>
         </div>
-      </div>
       <div class="players">
-          <picture>
-              <source media="(max-width: 320px)" srcset="img/basketballer_302.png">
-              <source media="(min-width: 641px)" srcset="img/basketballer_436.png">
-                <source media="(max-width: 960px)" srcset="img/basketballer_436.png">
+          <div class="absol-image">
+            <picture>
+              <source media="(max-width: 640px)" srcset="img/basketballer_302.png">
+              <source media="(min-width: 641px) and (max-width: 960px)" srcset="img/basketballer_436.png">
               <source media="(min-width: 961px)" srcset="img/basketballer_991.png">
               <img class="players_img" src="img/basketballer_991.png"  alt="player">
             </picture>
-        <div class="players_first">
-            <div class="players_first_mob">
-                <h2 class="players_title_mob">Players</h2>
+          </div>
+          <div class="default">
+            <div class="empty"></div>
+            <div class="info">
+              <h2 class="athlets_title">Players</h2>
             </div>
+        </div>
+        <div class="players_first">
             <div class="players_empty"></div>
-            <div class="athlets_info">
-                <h2 class="athlets_title">Players</h2>
+            <div class="athlets_info info_bcg">
                 <div class="connection">
                     <p class="number">01</p>
                     <h3 class="title">Connection</h3>
-                  </div>
-                  <div class="content">
+                </div>
+                <div class="content">
                     <p>Connect with talented athlete directly, you can watch their skills through 
                       video showreels directly from Surface 1.</p>
-                  </div>
+                </div>
             </div>
         </div>
         <div class="players_second">
@@ -194,7 +201,7 @@
     </section>
     <footer class="footer">
       <div class="footer-title">
-        <p class="footer-svg-titie">
+        <p class="footer-svg-title">
             <svg class="footer-svg" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
               <g>
                 <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
