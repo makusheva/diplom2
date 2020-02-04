@@ -31,7 +31,6 @@
     background-position: center center;
     background-size: cover;
     position: relative;
-    height: 960px;
 }
 .welcome::before {
     content: "";
@@ -47,7 +46,7 @@
     width: 195px;
     display: block;
     margin: 0 auto 130px auto;
-    padding-top: 30px;
+    padding-top: 45px;
     fill: #ffffff;
 }
 .h_header{
@@ -63,11 +62,13 @@
 .right{
     text-align: end;
     margin-top: 0;
+    display: block;
 }
 .button{
     position: relative;
     display:flex;
     justify-content: center;
+    padding-bottom: 110px;
 }
 .btn:last-child{
     margin-left: 50px;
@@ -139,6 +140,10 @@
     display: flex;
     margin-top: 0;
     margin-bottom: 30px;
+}
+.connection span{
+    margin-top: 10px;
+    margin-bottom: 7px;
 }
 .number{
     font-size: 18px;
@@ -215,7 +220,7 @@ color: #ffffff;
 .empty, .players_empty{
     width: 50%;
 }
-.players_first, .players_second, .players_third {
+.players_first, .players_second, .players_third, .players_default {
     flex-direction: row-reverse;
 }
 .athlets_info{
@@ -223,8 +228,7 @@ color: #ffffff;
     margin-left: 195px;
 }
 .players_img{
-    position: absolute;
-    right: 10%;
+    margin-left: 1300px;
 }
 .players_third{
     background-color: #0a0e34;
@@ -371,6 +375,7 @@ color: #ffffff;
     margin-bottom: 150px;
     font-size: 80px;
     font-weight: 700;
+    max-width: 720px;
   }
 .description span:last-child{
     color: #a496ca;
