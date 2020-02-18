@@ -20,7 +20,7 @@
     padding: 0;
     margin: 0;
 }
-.header{
+.header, .logo{
     position: relative;
     margin: 0 auto;
     max-width: 1540px;
@@ -45,7 +45,7 @@
 .img_header{
     width: 195px;
     display: block;
-    margin: 0 auto 130px auto;
+    margin: 0 auto 310px auto;
     padding-top: 45px;
     fill: #ffffff;
 }
@@ -121,20 +121,23 @@
     position: absolute;
 }
 .athlets_img{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 400px;
 }
 .athlets_title{
     font-size: 80px;
     color: #e7e7e7;
     text-transform: uppercase;
-    margin-top: 72px;
-    margin-bottom: 72px;
+    padding-top: 120px;
+    padding-bottom: 115px;
     line-height: 0.8;
+    margin: 0;
 }
-.athlets_first, .players_first, .default{
+.athlets_first, .players_first{
     margin-bottom: 60px; 
-    display: flex;
+}
+.players_first{
+    width: 70%;
 }
 .connection, .collaboration, .growth{
     display: flex;
@@ -216,19 +219,16 @@ color: #ffffff;
 .info{
     width: 50%;
     margin-right: 195px;
+    margin-left: 45%;
 }
-.empty, .players_empty{
-    width: 50%;
-}
-.players_first, .players_second, .players_third, .players_default {
-    flex-direction: row-reverse;
-}
+
 .athlets_info{
     width: 50%;
     margin-left: 195px;
 }
 .players_img{
-    margin-left: 1300px;
+    margin-left: 928px;
+    margin-top: 27px;
 }
 .players_third{
     background-color: #0a0e34;
@@ -260,13 +260,13 @@ color: #ffffff;
 .be-activ-wrapper, .contact-wrapper{
     display: flex;
     position: relative;
-    height: 730px;
     justify-content: space-between;
 }
 .be-activ-img{
     background-image: url(/diplom2/img/be-active_1024.jpg);
     background-size: cover;
     width: 50%;
+    height: 730px;
     background-position: center center;
 }
 .be-activ-info{
@@ -393,10 +393,11 @@ color: #ffffff;
         margin-left: 0;
     }
     .players_img{
-        right: 0;
+        margin-left: 440px;
     }
     .athlets_info{
         margin-left: 129px;
+        width: 50%;
     }
     .step{
         right: 45%;
@@ -610,9 +611,6 @@ color: #ffffff;
     }
     .athlets_first{
         margin-bottom: 0; 
-    }
-    .empty, .players_empty{
-        display: none;
     }
     .info, .athlets_info {
         width: 100%;
