@@ -419,26 +419,40 @@ color: #ffffff;
     .athlets_img{
         margin-left: 0;
     } 
-    .athlets_title  {
-        margin-left: 25px;
-    }
     .info {
         margin-right: 0;
+        margin-left: 54%;
     }
     .athlets_info{
-        margin-left: 10%; 
+        margin-left: 4%; 
+        width: 43%;
+    }
+    .absol-image{
+        width: 100%;
+    }
+    .default{
+    display: flex;
+    }
+    .athlets_first{
+        display: flex;
+    }
+    .players_img{
+        margin-left: -3%;
     }
     .be-activ-img{
         padding-left: 0;
     }
+    .be-activ-content{
+        padding: 0 50px 0 100px;
+    }
     .be-activ-info{
         margin-right: 0;
     }
-    .be-activ-content{
-        padding: 0;
+    .contact-content{
+        padding-left: 23px;
     }
     .step{
-        right: 45%;
+        right: 41%;
     }
 }
 @media (min-width: 641px) and (max-width: 960px){
