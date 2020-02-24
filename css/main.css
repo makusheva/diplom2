@@ -121,7 +121,7 @@
     position: absolute;
 }
 .athlets_img{
-    margin-top: 50px;
+    margin-top: -195px;
     margin-left: 400px;
 }
 .athlets_title{
@@ -485,6 +485,7 @@ max-width: 750px;
     }
     .athlets_img{
         margin-left: auto;
+        margin-top: -111px;
     }
     .info{
         margin-right: 45px;
@@ -497,6 +498,8 @@ max-width: 750px;
     }
     .absol-image-basketballer {
         left: 205px;
+        right: 0;
+        max-width: 100%;
     }
     .be-activ-wrapper, .contact-wrapper{
         flex-wrap: wrap;
@@ -614,11 +617,11 @@ max-width: 750px;
         font-size: 8px;
         margin-left: 10px;
     }
+    .absol-image, .absol-image-basketballer{
+        position: relative;
+    }
     .athlets_img{
         margin-top: 0;
-    }
-    .default, .players_default {
-        margin-bottom: 240px;
     }
     .info{
         margin: 0;
@@ -641,6 +644,7 @@ max-width: 750px;
     }
     .absol-image-basketballer{
         left: 0;
+        top: 0;
     }
     .players_first{
         margin-bottom: 0; 
@@ -699,11 +703,13 @@ max-width: 750px;
         background-image: url(/diplom2/img/be-active_640.jpg);
         background-size: cover;
         width: 100%;
+        max-width: 100%;
         height: 702px;
         background-position: center center;
     }
     .be-activ-content{
         padding: 0;
+        position: relative;
     }
     .be-activ-info p {
         font-size: 16px;
@@ -721,13 +727,14 @@ max-width: 750px;
         height: 4px;
     }
     .step{
-        top: 71%;
+        top: -23%;
         right: 71%;
     }
     .contact-img{
         background-image: url(/diplom2/img/find-contact_640.jpg);
         background-size: cover;
         width: 100%;
+        max-width: 100%;
         height: 702px;
         background-position: center center;
     }
