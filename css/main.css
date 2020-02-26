@@ -269,11 +269,10 @@ max-width: 750px;
 }
 .be-activ-wrapper, .contact-wrapper{
     display: flex;
-    position: relative;
     justify-content: space-between;
 }
 .be-activ-img{
-    background-image: url(/diplom2/img/be-active_1024.jpg);
+    background-image: url(/img/be-active_1024.jpg);
     background-size: cover;
     width: 50%;
     height: 730px;
@@ -290,11 +289,12 @@ max-width: 750px;
 }
 .be-activ-content{
     padding: 0 130px;
+    position: relative;
 }
 .step{
     position: absolute;
     top: 40%;
-    right: 47%;
+    right: 1078px;
 }
 .step-one{
     width: 168px;
@@ -324,15 +324,20 @@ max-width: 750px;
     border-radius: 25%;
     display : block;
 }
+.step_2{
+    position: absolute;
+    top: 40%;
+    right: -230px;
+}
 .contact-img{
-    background-image: url(/diplom2/img/find-contact_1024.jpg);
+    background-image: url(/img/find-contact_1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     background-position: center center;
 }
 .work-img{
-    background-image: url(/diplom2/img/work-it_1024.jpg);
+    background-image: url(/img/work-it_1024.jpg);
     background-size: cover;
     width: 50%;
     background-position: center center;
@@ -409,12 +414,15 @@ max-width: 750px;
         width: 50%;
     }
     .step{
-        right: 45%;
-    } 
+        right: 623px;
+    }
+    .step_2 {
+        left: 623px; 
+    }
 }
   @media (min-width: 961px) and (max-width: 1430px){
     .welcome{
-        background-image: url("../img/football_1280.jpg");
+        background-image: url("/img/football_1280.jpg");
     }
     .h_header{
         font-size: 85px;
@@ -453,6 +461,7 @@ max-width: 750px;
     }
     .be-activ-content{
         padding: 0 50px 0 100px;
+        position: relative;
     }
     .be-activ-info{
         margin-right: 0;
@@ -461,7 +470,10 @@ max-width: 750px;
         padding-left: 23px;
     }
     .step{
-        right: 41%;
+        right: 398px;
+    }
+    .step_2{
+        right: -85px;
     }
 }
 @media (min-width: 641px) and (max-width: 960px){
@@ -469,7 +481,7 @@ max-width: 750px;
         font-size: 16px;
     }
     .welcome{
-        background-image: url("../img/football_1280.jpg");
+        background-image: url("/img/football_1280.jpg");
     }
     .img_header{
         width: 210px;
@@ -497,9 +509,8 @@ max-width: 750px;
         margin-left: 35px;
     }
     .absol-image-basketballer {
-        left: 205px;
+        left: auto;
         right: 0;
-        max-width: 100%;
     }
     .be-activ-wrapper, .contact-wrapper{
         flex-wrap: wrap;
@@ -509,7 +520,7 @@ max-width: 750px;
         flex-wrap: wrap;
     }
     .be-activ-img{
-        background-image: url(/diplom2/img/be-active_640.jpg);
+        background-image: url(/img/be-active_640.jpg);
         background-size: cover;
         width: 100%;
         height: 702px;
@@ -519,6 +530,7 @@ max-width: 750px;
         padding: 0;
         margin-left: 30px;
         margin-right: 70px;
+        position: relative;
     }
     .athlets_title{
         padding: 0;
@@ -526,18 +538,22 @@ max-width: 750px;
         margin-bottom: 60px;
     }
     .step{
-        top: 56%;
-        right: 66%;
+        top: -113px;
+        right: 362px
+    }
+    .step_2{
+        top: -113px;
+        right: 362px
     }
     .contact-img{
-        background-image: url(/diplom2/img/find-contact_640.jpg);
+        background-image: url(/img/find-contact_640.jpg);
         background-size: cover;
         width: 100%;
         height: 702px;
         background-position: center center;
     }
     .work-img{
-        background-image: url(/diplom2/img/work-it_640.jpg);
+        background-image: url(/img/work-it_640.jpg);
         background-size: cover;
         width: 100%;
         height: 702px;
@@ -547,7 +563,6 @@ max-width: 750px;
         width: 100%;
     }
     .be-activ-info p{
-        margin-top: 40px;
         margin-bottom: 100px;
     }
        .reverce div:nth-child(2){
@@ -587,7 +602,7 @@ max-width: 750px;
         line-height: 1;
     }
     .welcome{
-        background-image: url("../img/football_767.jpg");
+        background-image: url("/img/football_767.jpg");
         width: 100%;
         height: 100%;
     }
@@ -640,7 +655,6 @@ max-width: 750px;
     }
     .athlets_img{
         margin-left: 75px;
-        margin-top: 55px;
     }
     .absol-image-basketballer{
         left: 0;
@@ -661,6 +675,7 @@ max-width: 750px;
         padding-top: 60px;
         padding-bottom: 60px;
         max-width: 280px;
+        margin-top: -42px;
     }
     .content, .content-growth p{
         font-size: 15px;
@@ -700,7 +715,7 @@ max-width: 750px;
         flex-wrap: wrap;
     }
     .be-activ-img{
-        background-image: url(/diplom2/img/be-active_640.jpg);
+        background-image: url(/img/be-active_640.jpg);
         background-size: cover;
         width: 100%;
         max-width: 100%;
@@ -727,11 +742,15 @@ max-width: 750px;
         height: 4px;
     }
     .step{
-        top: -23%;
-        right: 71%;
+        top: -65px;
+        right: 207px;
+    }
+    .step_2{
+        top: -65px;
+        right: 207px;
     }
     .contact-img{
-        background-image: url(/diplom2/img/find-contact_640.jpg);
+        background-image: url(/img/find-contact_640.jpg);
         background-size: cover;
         width: 100%;
         max-width: 100%;
@@ -739,7 +758,7 @@ max-width: 750px;
         background-position: center center;
     }
     .work-img{
-        background-image: url(/diplom2/img/work-it_640.jpg);
+        background-image: url(/img/work-it_640.jpg);
         background-size: cover;
         width: 100%;
         height: 702px;
