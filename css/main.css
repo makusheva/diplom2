@@ -282,19 +282,19 @@ max-width: 750px;
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    position: relative;
 }
 .be-activ-info p{
     font-size: 24px;
 }
 .be-activ-content{
     padding: 0 130px;
-    position: relative;
 }
 .step{
     position: absolute;
     top: 40%;
-    right: 1078px;
+    left: 0px;
+    margin-left: -79px;
 }
 .step-one{
     width: 168px;
@@ -327,7 +327,7 @@ max-width: 750px;
 .step_2{
     position: absolute;
     top: 40%;
-    right: -230px;
+    right: -77px;
 }
 .contact-img{
     background-image: url(../img/find-contact_1024.jpg);
@@ -417,7 +417,7 @@ max-width: 750px;
         right: 623px;
     }
     .step_2 {
-        left: 623px; 
+        margin-left: 241px;
     }
 }
   @media (min-width: 961px) and (max-width: 1430px){
@@ -537,14 +537,13 @@ max-width: 750px;
         margin-top: 95px;
         margin-bottom: 60px;
     }
-    .step{
+    .step, .step_2{
         top: -113px;
-        right: 362px
+        right: 0;
+        margin-left: 0;
+        left: 0;
     }
-    .step_2{
-        top: -113px;
-        right: 362px
-    }
+    
     .contact-img{
         background-image: url(../img/find-contact_640.jpg);
         background-size: cover;
@@ -743,7 +742,8 @@ max-width: 750px;
     }
     .step{
         top: -65px;
-        right: 207px;
+        right: 0;
+        margin-left: 0;
     }
     .step_2{
         top: -65px;
